@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "S:/uni/4/Az memar/session 2/hw2/mux4_to_1.xst" -ofn "S:/uni/4/Az memar/session 2/hw2/mux4_to_1.syr" 
