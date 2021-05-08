@@ -1,0 +1,45 @@
+{E:/Ev/university/semester 4/CA lib/az4/CarrySelect/Mux2to1.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {E:/Ev/university/semester 4/CA lib/az4/CarrySelect/Mux2to1.vhd}
+Model Technology ModelSim SE-64 vcom 2019.4 Compiler 2019.10 Oct 15 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux2_1
+-- Compiling architecture bhv of mux2_1
+
+} {} {}} {E:/Ev/university/semester 4/CA lib/az4/CarrySelect/HA.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {E:/Ev/university/semester 4/CA lib/az4/CarrySelect/HA.vhd}
+Model Technology ModelSim SE-64 vcom 2019.4 Compiler 2019.10 Oct 15 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity HA
+-- Compiling architecture dataflow of HA
+
+} {} {}} {E:/Ev/university/semester 4/CA lib/az4/CarrySelect/CarrySelect.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {E:/Ev/university/semester 4/CA lib/az4/CarrySelect/CarrySelect.vhd}
+Model Technology ModelSim SE-64 vcom 2019.4 Compiler 2019.10 Oct 15 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity carry_select_adder
+-- Compiling architecture Behavioral of carry_select_adder
+
+} {} {}} {E:/Ev/university/semester 4/CA lib/az4/RippleAdder/FA.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {E:/Ev/university/semester 4/CA lib/az4/RippleAdder/FA.vhd}
+Model Technology ModelSim SE-64 vcom 2019.4 Compiler 2019.10 Oct 15 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity FA
+-- Compiling architecture structural of FA
+
+} {} {}} {E:/Ev/university/semester 4/CA lib/az4/CarrySelect/CS_tb.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {E:/Ev/university/semester 4/CA lib/az4/CarrySelect/CS_tb.vhd}
+Model Technology ModelSim SE-64 vcom 2019.4 Compiler 2019.10 Oct 15 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Tb_carry_select_adder
+-- Compiling architecture behavior of Tb_carry_select_adder
+
+} {} {}}

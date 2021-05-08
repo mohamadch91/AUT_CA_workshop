@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "S:/uni/4/Az memar/session7/az71~/Mem/mem_tb_isim_beh.exe" -prj "S:/uni/4/Az memar/session7/az71~/Mem/mem_tb_beh.prj" "work.mem_tb" 

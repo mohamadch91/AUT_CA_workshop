@@ -1,0 +1,5 @@
+vhdl work "HA.vhd"
+vhdl work "Mux2to1.vhd"
+vhdl work "FA_1.vhd"
+vhdl work "CarrySelect.vhd"
+vhdl work "CS_tb.vhd"

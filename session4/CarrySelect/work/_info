@@ -1,0 +1,233 @@
+m255
+K4
+z2
+!s11e vcom 2019.4 2019.10, Oct 15 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/Ev/university/semester 4/CA lib/modelsim/examples
+T_opt
+!s110 1598990524
+VcB[2:ah5noL6=5=iFJV`90
+04 21 8 work tb_carry_select_adder behavior 1
+=1-a402b9caac06-5f4ea8bc-19f-2658
+o-quiet -auto_acc_if_foreign -work work +acc
+tCvgOpt 0
+n@_opt
+OL;O;2019.4;69
+Ecarry_select_adder
+Z0 w1598990451
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 -1
+Z3 dE:/Ev/university/semester 4/CA lib/az4/CarrySelect
+Z4 8E:/Ev/university/semester 4/CA lib/az4/CarrySelect/CarrySelect.vhd
+Z5 FE:/Ev/university/semester 4/CA lib/az4/CarrySelect/CarrySelect.vhd
+l0
+L4
+VTGRkB9VdXJ0gTVZzH:L=<1
+!s100 ?Kz3F^ZOb:REB4f<9f6W^0
+Z6 OL;C;2019.4;69
+32
+Z7 !s110 1598990519
+!i10b 1
+Z8 !s108 1598990519.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|E:/Ev/university/semester 4/CA lib/az4/CarrySelect/CarrySelect.vhd|
+Z10 !s107 E:/Ev/university/semester 4/CA lib/az4/CarrySelect/CarrySelect.vhd|
+!i113 0
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Abehavioral
+R1
+R2
+DEx4 work 18 carry_select_adder 0 22 TGRkB9VdXJ0gTVZzH:L=<1
+!i122 -1
+l31
+L12
+VDK^@BI8JK^4fNV<QZc:Za2
+!s100 YNA>2f>f5[RWZz_PkG<=G3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Efa
+Z13 w1598989083
+Z14 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z15 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+R1
+R2
+!i122 -1
+R3
+Z16 8E:/Ev/university/semester 4/CA lib/az4/RippleAdder/FA.vhd
+Z17 FE:/Ev/university/semester 4/CA lib/az4/RippleAdder/FA.vhd
+l0
+L6
+VFVoU;eDh5@3IL>V62PGU<1
+!s100 2AO@OjL]0OQkbidMa5Yzl2
+R6
+32
+R7
+!i10b 1
+R8
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|E:/Ev/university/semester 4/CA lib/az4/RippleAdder/FA.vhd|
+Z19 !s107 E:/Ev/university/semester 4/CA lib/az4/RippleAdder/FA.vhd|
+!i113 0
+R11
+R12
+Astructural
+R14
+R15
+R1
+R2
+DEx4 work 2 fa 0 22 FVoU;eDh5@3IL>V62PGU<1
+!i122 -1
+l21
+L11
+VfhEE]M@2U8]AJKzlH_La:3
+!s100 D42]83KI<OFb1zIi]B`k31
+R6
+32
+R7
+!i10b 1
+R8
+R18
+R19
+!i113 0
+R11
+R12
+Eha
+Z20 w1598989778
+R14
+R15
+R1
+R2
+!i122 -1
+R3
+Z21 8E:/Ev/university/semester 4/CA lib/az4/CarrySelect/HA.vhd
+Z22 FE:/Ev/university/semester 4/CA lib/az4/CarrySelect/HA.vhd
+l0
+L10
+VdA7JI2>2<o1KRVJIoTE=[1
+!s100 hJ4L;6HJ12U@SLXQd<]o<3
+R6
+32
+Z23 !s110 1598990520
+!i10b 1
+Z24 !s108 1598990520.000000
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|E:/Ev/university/semester 4/CA lib/az4/CarrySelect/HA.vhd|
+Z26 !s107 E:/Ev/university/semester 4/CA lib/az4/CarrySelect/HA.vhd|
+!i113 0
+R11
+R12
+Adataflow
+R14
+R15
+R1
+R2
+DEx4 work 2 ha 0 22 dA7JI2>2<o1KRVJIoTE=[1
+!i122 -1
+l22
+L19
+VDEd<2K`Wh4aSJP`PLVCOQ1
+!s100 5;<ea2?ecDKekOoj]n:@T3
+R6
+32
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 0
+R11
+R12
+Emux2_1
+Z27 w1598989252
+R1
+R2
+!i122 -1
+R3
+Z28 8E:/Ev/university/semester 4/CA lib/az4/CarrySelect/Mux2to1.vhd
+Z29 FE:/Ev/university/semester 4/CA lib/az4/CarrySelect/Mux2to1.vhd
+l0
+L4
+VGGl[j_GU;00^CchNf3N9^1
+!s100 hQWB5o=f8PUZ<375:D`1Y0
+R6
+32
+R7
+!i10b 1
+R8
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|E:/Ev/university/semester 4/CA lib/az4/CarrySelect/Mux2to1.vhd|
+Z31 !s107 E:/Ev/university/semester 4/CA lib/az4/CarrySelect/Mux2to1.vhd|
+!i113 0
+R11
+R12
+Abhv
+R1
+R2
+DEx4 work 6 mux2_1 0 22 GGl[j_GU;00^CchNf3N9^1
+!i122 -1
+l14
+L13
+VV=jXcVNaR?BD_M1Hiz5@N0
+!s100 [Eb44;3=_TaO@HSTRZzP<3
+R6
+32
+R7
+!i10b 1
+R8
+R30
+R31
+!i113 0
+R11
+R12
+Etb_carry_select_adder
+Z32 w1598990515
+R1
+R2
+!i122 -1
+R3
+Z33 8E:/Ev/university/semester 4/CA lib/az4/CarrySelect/CS_tb.vhd
+Z34 FE:/Ev/university/semester 4/CA lib/az4/CarrySelect/CS_tb.vhd
+l0
+L4
+VYd:f6?li4hVKU]Lj@[VS@3
+!s100 MQ<EXZQSd<`ffXcmk]JDd2
+R6
+32
+R23
+!i10b 1
+R8
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|E:/Ev/university/semester 4/CA lib/az4/CarrySelect/CS_tb.vhd|
+Z36 !s107 E:/Ev/university/semester 4/CA lib/az4/CarrySelect/CS_tb.vhd|
+!i113 0
+R11
+R12
+Abehavior
+R1
+R2
+DEx4 work 21 tb_carry_select_adder 0 22 Yd:f6?li4hVKU]Lj@[VS@3
+!i122 -1
+l30
+L7
+Vfc]S>1?DUKF4mSC<lf1^13
+!s100 JAMmV^f7FCd;2f@J8ngRV1
+R6
+32
+R23
+!i10b 1
+R8
+R35
+R36
+!i113 0
+R11
+R12

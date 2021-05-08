@@ -1,0 +1,290 @@
+m255
+K4
+z2
+!s11e vcom 2019.4 2019.10, Oct 15 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/Ev/university/semester 4/CA lib/modelsim/examples
+T_opt
+!s110 1599283433
+V@00;E]V[YLP:E3EJk5DHT3
+04 19 8 work tb_carry_look_ahead behavior 1
+=1-a402b9caac06-5f5320e7-206-21c
+o-quiet -auto_acc_if_foreign -work work +acc
+tCvgOpt 0
+n@_opt
+OL;O;2019.4;69
+Ecarry_look_ahead
+Z0 w1598987748
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 -1
+Z3 dE:/Ev/university/semester 4/CA lib/az4/CarryLookahead
+Z4 8E:/Ev/university/semester 4/CA lib/az4/CarryLookahead/CarryLookahead.vhd
+Z5 FE:/Ev/university/semester 4/CA lib/az4/CarryLookahead/CarryLookahead.vhd
+l0
+L4
+VHWmALm;ZoF`3NcO524WWB0
+!s100 QY@X6Yd>U^GDWCaMKC@=F3
+Z6 OL;C;2019.4;69
+32
+Z7 !s110 1598988894
+!i10b 1
+Z8 !s108 1598988894.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|E:/Ev/university/semester 4/CA lib/az4/CarryLookahead/CarryLookahead.vhd|
+Z10 !s107 E:/Ev/university/semester 4/CA lib/az4/CarryLookahead/CarryLookahead.vhd|
+!i113 0
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Abehavioral
+R1
+R2
+DEx4 work 16 carry_look_ahead 0 22 HWmALm;ZoF`3NcO524WWB0
+!i122 -1
+l25
+L12
+Vz5n^D0O6eAR:;h17^VK@b2
+!s100 FcZBHP7CkN_g`JM>@>_=70
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Artl
+R1
+R2
+DEx4 work 16 carry_look_ahead 0 22 ;:FFPQ^@N4A0lfCfZFko=3
+!i122 -1
+l32
+L14
+VldhPBjCm;dG1oLigfTU_?3
+!s100 ^Hbg>?FC7UF:zn4bJEEL23
+R6
+32
+!s110 1598987679
+!i10b 1
+!s108 1598987679.000000
+R9
+R10
+!i113 0
+R11
+R12
+w1598987205
+Ecarry_lookahead_adder_4_bit
+Z13 w1598987120
+R1
+R2
+!i122 -1
+R3
+R4
+R5
+l0
+L5
+VjV0bhh672<Y1Lm?PPQm9N1
+!s100 AiiB63kHLmJmUbPmhVS1z3
+R6
+32
+Z14 !s110 1598987125
+!i10b 1
+Z15 !s108 1598987125.000000
+R9
+R10
+!i113 0
+R11
+R12
+Artl
+R1
+R2
+DEx4 work 27 carry_lookahead_adder_4_bit 0 22 jV0bhh672<Y1Lm?PPQm9N1
+!i122 -1
+l32
+L14
+VS5^<LahQlQgVHo`mSL]L^0
+!s100 aJFKkh[9zzTeD1045@e6N3
+R6
+32
+R14
+!i10b 1
+R15
+R9
+R10
+!i113 0
+R11
+R12
+Efa
+Z16 w1598985376
+Z17 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z18 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+R1
+R2
+!i122 -1
+R3
+Z19 8E:/Ev/university/semester 4/CA lib/az4/RippleAdder/FA.vhd
+Z20 FE:/Ev/university/semester 4/CA lib/az4/RippleAdder/FA.vhd
+l0
+L6
+VjGScFG@;M[FHaRNo:c7X10
+!s100 aXiiQaKI5;K<Zj7j<=<=11
+R6
+32
+Z21 !s110 1598987216
+!i10b 1
+Z22 !s108 1598987216.000000
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|E:/Ev/university/semester 4/CA lib/az4/RippleAdder/FA.vhd|
+Z24 !s107 E:/Ev/university/semester 4/CA lib/az4/RippleAdder/FA.vhd|
+!i113 0
+R11
+R12
+Astructural
+R17
+R18
+R1
+R2
+DEx4 work 2 fa 0 22 jGScFG@;M[FHaRNo:c7X10
+!i122 -1
+l21
+L11
+VUK[R`f8=8VSDOm[[6flNZ0
+!s100 LKiYF0UP0aHPCKJP2K`2X2
+R6
+32
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 0
+R11
+R12
+Eha
+Z25 w1598982230
+R1
+R2
+!i122 -1
+R3
+Z26 8E:/Ev/university/semester 4/CA lib/az4/RippleAdder/HA.vhd
+Z27 FE:/Ev/university/semester 4/CA lib/az4/RippleAdder/HA.vhd
+l0
+L4
+VZjBm^o]i[kmLcET?O@YZ?0
+!s100 8Ooo7lo=KfZO^eM]UZC9S3
+R6
+32
+Z28 !s110 1598987217
+!i10b 1
+Z29 !s108 1598987217.000000
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|E:/Ev/university/semester 4/CA lib/az4/RippleAdder/HA.vhd|
+Z31 !s107 E:/Ev/university/semester 4/CA lib/az4/RippleAdder/HA.vhd|
+!i113 0
+R11
+R12
+Agatelevel
+R1
+R2
+DEx4 work 2 ha 0 22 ZjBm^o]i[kmLcET?O@YZ?0
+!i122 -1
+l10
+L9
+VKC]W4h6al]VOSDCJgG7:J3
+!s100 JNml3IOIU6fLjlTRgS0Im2
+R6
+32
+R28
+!i10b 1
+R29
+R30
+R31
+!i113 0
+R11
+R12
+Epartial_full_adder
+Z32 w1598988888
+R1
+R2
+!i122 -1
+R3
+Z33 8E:/Ev/university/semester 4/CA lib/az4/CarryLookahead/FA.vhd
+Z34 FE:/Ev/university/semester 4/CA lib/az4/CarryLookahead/FA.vhd
+l0
+L4
+V[_9KJd?Jh25AI0SmQ?c2]1
+!s100 QQ]Ydh:6P4iLeDEo9`mE;3
+R6
+32
+R7
+!i10b 1
+R8
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|E:/Ev/university/semester 4/CA lib/az4/CarryLookahead/FA.vhd|
+Z36 !s107 E:/Ev/university/semester 4/CA lib/az4/CarryLookahead/FA.vhd|
+!i113 0
+R11
+R12
+Abehavioral
+R1
+R2
+DEx4 work 18 partial_full_adder 0 22 [_9KJd?Jh25AI0SmQ?c2]1
+!i122 -1
+l15
+L13
+V6oeL]V3bgIDF4JCm<SBei0
+!s100 [J61anLioka2;OO1`R>A`1
+R6
+32
+R7
+!i10b 1
+R8
+R35
+R36
+!i113 0
+R11
+R12
+Etb_carry_look_ahead
+Z37 w1598987876
+R1
+R2
+!i122 -1
+R3
+Z38 8E:/Ev/university/semester 4/CA lib/az4/CarryLookahead/CL_tb.vhd
+Z39 FE:/Ev/university/semester 4/CA lib/az4/CarryLookahead/CL_tb.vhd
+l0
+L4
+V_L]KGXKN]jmUDif0U3NG60
+!s100 UD<J_?6RMOkOcEWP_c=X80
+R6
+32
+R7
+!i10b 1
+R8
+Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|E:/Ev/university/semester 4/CA lib/az4/CarryLookahead/CL_tb.vhd|
+Z41 !s107 E:/Ev/university/semester 4/CA lib/az4/CarryLookahead/CL_tb.vhd|
+!i113 0
+R11
+R12
+Abehavior
+R1
+R2
+DEx4 work 19 tb_carry_look_ahead 0 22 _L]KGXKN]jmUDif0U3NG60
+!i122 -1
+l30
+L7
+VHWZZY=RS0CSaa9aTPaYhZ0
+!s100 V7dfcPA2BZ4AgEmo>^MAY0
+R6
+32
+R7
+!i10b 1
+R8
+R40
+R41
+!i113 0
+R11
+R12

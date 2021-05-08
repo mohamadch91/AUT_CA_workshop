@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"S:/uni/4/Az memar/session7/az71~/Mem/Mem.vhd" Line 2: &lt;<arg fmt="%s" index="1">ieee</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"S:/uni/4/Az memar/session7/az71~/Mem/Mem.vhd" Line 3: &lt;<arg fmt="%s" index="1">ieee</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"S:/uni/4/Az memar/session7/az71~/Mem/Mem.vhd" Line 4: &lt;<arg fmt="%s" index="1">ieee</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"S:/uni/4/Az memar/session7/az71~/Mem/Mem.vhd" Line 5: &lt;<arg fmt="%s" index="1">ieee</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"S:/uni/4/Az memar/session7/az71~/Mem/Mem.vhd" Line 13: &lt;<arg fmt="%s" index="1">std_logic</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"S:/uni/4/Az memar/session7/az71~/Mem/Mem.vhd" Line 14: &lt;<arg fmt="%s" index="1">std_logic_vector</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"S:/uni/4/Az memar/session7/az71~/Mem/Mem.vhd" Line 15: &lt;<arg fmt="%s" index="1">std_logic_vector</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"S:/uni/4/Az memar/session7/az71~/Mem/Mem.vhd" Line 16: &lt;<arg fmt="%s" index="1">std_logic</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"S:/uni/4/Az memar/session7/az71~/Mem/Mem.vhd" Line 17: &lt;<arg fmt="%s" index="1">std_logic</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"S:/uni/4/Az memar/session7/az71~/Mem/Mem.vhd" Line 18: &lt;<arg fmt="%s" index="1">std_logic</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="854" delta="unknown" >"S:/uni/4/Az memar/session7/az71~/Mem/Mem.vhd" Line 7: Unit &lt;<arg fmt="%s" index="1">ram</arg>&gt; ignored due to previous errors.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="374" delta="unknown" >"S:/uni/4/Az memar/session7/az71~/Mem/Mem.vhd" Line 22: Entity &lt;<arg fmt="%s" index="1">ram</arg>&gt; is not yet compiled.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"S:/uni/4/Az memar/session7/az71~/Mem/Mem.vhd" Line 24: &lt;<arg fmt="%s" index="1">std_logic_vector</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"S:/uni/4/Az memar/session7/az71~/Mem/Mem.vhd" Line 25: &lt;<arg fmt="%s" index="1">integer</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"S:/uni/4/Az memar/session7/az71~/Mem/Mem.vhd" Line 28: &lt;<arg fmt="%s" index="1">integer</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"S:/uni/4/Az memar/session7/az71~/Mem/Mem.vhd" Line 29: &lt;<arg fmt="%s" index="1">d</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="535" delta="unknown" >"S:/uni/4/Az memar/session7/az71~/Mem/Mem.vhd" Line 29: Index constraint prefix <arg fmt="%s" index="1">ram</arg> should be an array type
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"S:/uni/4/Az memar/session7/az71~/Mem/Mem.vhd" Line 35: &lt;<arg fmt="%s" index="1">reset</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"S:/uni/4/Az memar/session7/az71~/Mem/Mem.vhd" Line 43: &lt;<arg fmt="%s" index="1">c</arg>&gt; is not declared.
+</msg>
+
+</messages>
+

@@ -1,0 +1,2 @@
+vhdl work "../az4/FA.vhd"
+vhdl work "../az4/CarryLookahead.vhd"

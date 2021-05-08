@@ -1,0 +1,25 @@
+{E:/Ev/university/semester 4/CA lib/az4/CarryLookahead/CL_tb.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {E:/Ev/university/semester 4/CA lib/az4/CarryLookahead/CL_tb.vhd}
+Model Technology ModelSim SE-64 vcom 2019.4 Compiler 2019.10 Oct 15 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Tb_Carry_Look_Ahead
+-- Compiling architecture behavior of Tb_Carry_Look_Ahead
+
+} {} {}} {E:/Ev/university/semester 4/CA lib/az4/CarryLookahead/CarryLookahead.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {E:/Ev/university/semester 4/CA lib/az4/CarryLookahead/CarryLookahead.vhd}
+Model Technology ModelSim SE-64 vcom 2019.4 Compiler 2019.10 Oct 15 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Carry_Look_Ahead
+-- Compiling architecture Behavioral of Carry_Look_Ahead
+
+} {} {}} {E:/Ev/university/semester 4/CA lib/az4/CarryLookahead/FA.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {E:/Ev/university/semester 4/CA lib/az4/CarryLookahead/FA.vhd}
+Model Technology ModelSim SE-64 vcom 2019.4 Compiler 2019.10 Oct 15 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Partial_Full_Adder
+-- Compiling architecture Behavioral of Partial_Full_Adder
+
+} {} {}}

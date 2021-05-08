@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "S:/uni/4/Az memar/session4/new/Carry_Look_Ahead.xst" -ofn "S:/uni/4/Az memar/session4/new/Carry_Look_Ahead.syr" 
