@@ -1,0 +1,454 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> Reading design: Divider2.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Divider2.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Divider2"
+Output Format                      : NGC
+Target Device                      : xc6slx45t-3-fgg484
+
+---- Source Options
+Top Module Name                    : Divider2
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "E:\Ev\university\semester 4\CA lib\az8\divider\div_sec.vhd" into library work
+Parsing entity <Divider2>.
+Parsing architecture <Behavioral> of entity <divider2>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <Divider2> (architecture <Behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Divider2>.
+    Related source file is "E:\Ev\university\semester 4\CA lib\az8\divider\div_sec.vhd".
+    Found 4-bit register for signal <i_reg>.
+    Found 17-bit register for signal <z_reg>.
+    Found 8-bit register for signal <d_reg>.
+    Found 2-bit register for signal <state_reg>.
+    Found finite state machine <FSM_0> for signal <state_reg>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 6                                              |
+    | Inputs             | 3                                              |
+    | Outputs            | 3                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | reset (positive)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | idle                                           |
+    | Power Up State     | idle                                           |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 4-bit adder for signal <i_reg[3]_GND_4_o_add_11_OUT> created at line 1241.
+    Found 9-bit subtractor for signal <sub> created at line 28.
+    Found 4-bit 3-to-1 multiplexer for signal <i_next> created at line 89.
+    Found 17-bit 3-to-1 multiplexer for signal <z_next> created at line 120.
+    Found 8-bit comparator greater for signal <m[15]_n[7]_LessThan_2_o> created at line 48
+    Found 9-bit comparator greater for signal <z_reg[16]_GND_4_o_LessThan_16_o> created at line 128
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+	inferred  12 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <Divider2> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 4-bit adder                                           : 1
+ 9-bit subtractor                                      : 1
+# Registers                                            : 3
+ 17-bit register                                       : 1
+ 4-bit register                                        : 1
+ 8-bit register                                        : 1
+# Comparators                                          : 2
+ 8-bit comparator greater                              : 1
+ 9-bit comparator greater                              : 1
+# Multiplexers                                         : 12
+ 1-bit 2-to-1 multiplexer                              : 10
+ 17-bit 3-to-1 multiplexer                             : 1
+ 4-bit 3-to-1 multiplexer                              : 1
+# FSMs                                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 4-bit adder                                           : 1
+ 9-bit subtractor                                      : 1
+# Registers                                            : 29
+ Flip-Flops                                            : 29
+# Comparators                                          : 2
+ 8-bit comparator greater                              : 1
+ 9-bit comparator greater                              : 1
+# Multiplexers                                         : 12
+ 1-bit 2-to-1 multiplexer                              : 10
+ 17-bit 3-to-1 multiplexer                             : 1
+ 4-bit 3-to-1 multiplexer                              : 1
+# FSMs                                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <FSM_0> on signal <state_reg[1:2]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ idle  | 00
+ shift | 01
+ op    | 10
+-------------------
+
+Optimizing unit <Divider2> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Divider2, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 31
+ Flip-Flops                                            : 31
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : Divider2.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 71
+#      INV                         : 1
+#      LUT2                        : 9
+#      LUT3                        : 10
+#      LUT4                        : 3
+#      LUT5                        : 19
+#      LUT6                        : 10
+#      MUXCY                       : 8
+#      MUXF7                       : 1
+#      VCC                         : 1
+#      XORCY                       : 9
+# FlipFlops/Latches                : 31
+#      FDC                         : 31
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 44
+#      IBUF                        : 26
+#      OBUF                        : 18
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx45tfgg484-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              31  out of  54576     0%  
+ Number of Slice LUTs:                   52  out of  27288     0%  
+    Number used as Logic:                52  out of  27288     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     60
+   Number with an unused Flip Flop:      29  out of     60    48%  
+   Number with an unused LUT:             8  out of     60    13%  
+   Number of fully used LUT-FF pairs:    23  out of     60    38%  
+   Number of unique control sets:         1
+
+IO Utilization: 
+ Number of IOs:                          45
+ Number of bonded IOBs:                  45  out of    296    15%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 31    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 3.805ns (Maximum Frequency: 262.809MHz)
+   Minimum input arrival time before clock: 5.890ns
+   Maximum output required time after clock: 5.237ns
+   Maximum combinational path delay: 8.595ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 3.805ns (frequency: 262.809MHz)
+  Total number of paths / destination ports: 450 / 23
+-------------------------------------------------------------------------
+Delay:               3.805ns (Levels of Logic = 3)
+  Source:            d_reg_4 (FF)
+  Destination:       z_reg_0 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: d_reg_4 to z_reg_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.447   0.864  d_reg_4 (d_reg_4)
+     LUT4:I0->O            1   0.203   0.924  z_reg[16]_GND_4_o_LessThan_16_o1_SW0 (N23)
+     LUT6:I1->O           10   0.203   0.857  z_reg[16]_GND_4_o_LessThan_16_o21 (z_reg[16]_GND_4_o_LessThan_16_o)
+     LUT6:I5->O            1   0.205   0.000  Mmux_z_next81 (z_next<16>)
+     FDC:D                     0.102          z_reg_16
+    ----------------------------------------
+    Total                      3.805ns (1.160ns logic, 2.645ns route)
+                                       (30.5% logic, 69.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 127 / 57
+-------------------------------------------------------------------------
+Offset:              5.890ns (Levels of Logic = 6)
+  Source:            n<2> (PAD)
+  Destination:       state_reg_FSM_FFd2 (FF)
+  Destination Clock: clk rising
+
+  Data Path: n<2> to state_reg_FSM_FFd2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   1.222   0.995  n_2_IBUF (n_2_IBUF)
+     LUT6:I1->O            2   0.203   0.845  m[15]_n[7]_LessThan_2_o2 (m[15]_n[7]_LessThan_2_o1)
+     LUT6:I3->O            1   0.205   0.000  m[15]_n[7]_LessThan_2_o1_G (N32)
+     MUXF7:I1->O           1   0.140   0.808  m[15]_n[7]_LessThan_2_o1 (m[15]_n[7]_LessThan_2_o2)
+     LUT5:I2->O            2   0.205   0.961  m[15]_n[7]_LessThan_2_o21 (m[15]_n[7]_LessThan_2_o)
+     LUT6:I1->O            1   0.203   0.000  state_reg_FSM_FFd2-In (state_reg_FSM_FFd2-In)
+     FDC:D                     0.102          state_reg_FSM_FFd2
+    ----------------------------------------
+    Total                      5.890ns (2.280ns logic, 3.610ns route)
+                                       (38.7% logic, 61.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 20 / 18
+-------------------------------------------------------------------------
+Offset:              5.237ns (Levels of Logic = 2)
+  Source:            state_reg_FSM_FFd2 (FF)
+  Destination:       ovfl (PAD)
+  Source Clock:      clk rising
+
+  Data Path: state_reg_FSM_FFd2 to ovfl
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             26   0.447   1.435  state_reg_FSM_FFd2 (state_reg_FSM_FFd2)
+     LUT3:I0->O            1   0.205   0.579  ovfl1 (ovfl_OBUF)
+     OBUF:I->O                 2.571          ovfl_OBUF (ovfl)
+    ----------------------------------------
+    Total                      5.237ns (3.223ns logic, 2.014ns route)
+                                       (61.5% logic, 38.5% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 27 / 1
+-------------------------------------------------------------------------
+Delay:               8.595ns (Levels of Logic = 7)
+  Source:            n<2> (PAD)
+  Destination:       ovfl (PAD)
+
+  Data Path: n<2> to ovfl
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   1.222   0.995  n_2_IBUF (n_2_IBUF)
+     LUT6:I1->O            2   0.203   0.845  m[15]_n[7]_LessThan_2_o2 (m[15]_n[7]_LessThan_2_o1)
+     LUT6:I3->O            1   0.205   0.000  m[15]_n[7]_LessThan_2_o1_G (N32)
+     MUXF7:I1->O           1   0.140   0.808  m[15]_n[7]_LessThan_2_o1 (m[15]_n[7]_LessThan_2_o2)
+     LUT5:I2->O            2   0.205   0.617  m[15]_n[7]_LessThan_2_o21 (m[15]_n[7]_LessThan_2_o)
+     LUT3:I2->O            1   0.205   0.579  ovfl1 (ovfl_OBUF)
+     OBUF:I->O                 2.571          ovfl_OBUF (ovfl)
+    ----------------------------------------
+    Total                      8.595ns (4.751ns logic, 3.844ns route)
+                                       (55.3% logic, 44.7% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    3.805|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 8.43 secs
+ 
+--> 
+
+Total memory usage is 4494088 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

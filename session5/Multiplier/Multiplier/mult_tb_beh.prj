@@ -1,0 +1,4 @@
+vhdl work "../az5/arrayMult/FA.vhd"
+vhdl work "../az5/arrayMult/rippleAdder4bit.vhd"
+vhdl work "../az5/arrayMult/arrayMult4bit.vhd"
+vhdl work "../az5/arrayMult/arrayMult_tb.vhd"

@@ -1,0 +1,3 @@
+vhdl isim_temp "../az5/mult/HA.vhd"
+vhdl isim_temp "../az5/arrayMult/FA.vhd"
+vhdl isim_temp "../az5/mult/mult4bit.vhd"

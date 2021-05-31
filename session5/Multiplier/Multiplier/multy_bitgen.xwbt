@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Az Memari\Multiplier\multy.ncd
+OUTFILE=D:\Az Memari\Multiplier\multy.bit
+FAMILY=Spartan6
+PART=xc6slx4-3tqg144
+WORKINGDIR=D:\Az Memari\Multiplier
+LICENSE=WebPack
+USER_INFO=__0_0_0
